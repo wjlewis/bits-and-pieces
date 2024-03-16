@@ -1,0 +1,43 @@
+# Active and Contemplative Modes
+
+Learning anything new requires harnessing two distinct, competing modes of
+working.
+The _contemplative_ mode values understanding and strives to build grand,
+coherent structures capable of explaining.
+The _active_ mode wants to _do_ something, and usually _make_ something.
+If the contemplative mode has a motto, it's some abstruse three-word Latin
+phrase; the active mode's mantra is undoubtedly, _"get shit done"_.
+
+Clearly these two are in tension.
+The contemplative mode sees the active mode as a lower primate that somehow
+learned to use power tools.
+The active mode retorts, saying, "what have you done lately?"
+
+But they're both necessary for long-term growth.
+Without the synthesizing efforts of the contemplative mode, the active mode must
+rely on luck for new ideas.
+The contemplative mode without the active mode is the cognitive equivalent of
+trying to get stronger by watching somebody else deadlift.
+
+So the million-dollar question is this: how do we bring these two forces into
+harmony?
+How do you get two experts from competing fields, both of whom despise each
+other, to work together?
+
+One possible answer is that _you don't_.
+You let the active mode do its thing for a while, and only once it's worn out
+do you bring the contemplative mode in to try and make something of the
+situation.
+At some point the contemplative mode will run out of ideas and need a break, at
+which point the well-rested active mode can be brought back into play.
+
+Of course this strategy is nothing new.
+But it's one thing to be aware of it, and another thing entirely to put it into
+practice.
+To that end I've started paying more attention to the mode I'm operating in.
+This usually isn't that difficult to discern: if my handwriting is crisp and
+confident, I'm almost certainly in contemplative mode; if I'm frantically
+searching `man` pages or StackOverflow/Exchange, or have more than 3 browser
+tabs open, I'm in active mode.
+With this awareness in hand I try and exhaust the current mode, staying in
+active mode until it gets tired, or contemplative mode until it's out of ideas.
