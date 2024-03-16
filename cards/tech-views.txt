@@ -1,0 +1,69 @@
+# A Few Views on Technology
+
+## Pseudo-Amish/Point of no Return
+
+_Not to be confused with actual Amish practices._
+All technology created before a certain date is useful and good.
+At some point things took a turn for the worse, though.
+That point might have been when the automobile was invented, or the combine
+harvester, or the telephone, the smartphone, social media, or LLMs.
+
+## Techno-Optimist/Dymaxion
+
+Technology has, by-and-large, acted as a force for good in the history of
+humanity.
+Technology has the potential to solve most problems, including most of the
+important problems.
+
+## Techno-Pessimist
+
+The antithesis of techno-optimism, and an extreme version of the Pseudo-Amish
+stance.
+Technology is _just bad_.
+We never should have come down from the trees.
+
+## Two Watersheds
+
+The idea is due to Ivan Illich.
+Most technological advancement passes through two "watersheds": after the first
+it serves mankind; after the second this relationship is inverted, with mankind
+serving it.
+Examples include medicine, automation, and even more abstract things like
+corporations.
+
+## Complementary vs. Competing
+
+This idea is due to David Krakauer.
+It only applies to "cognitive artifacts", but these make up a greater and
+greater proportion of new technology.
+We can classify cognitive artifacts as _complementary_ or _competitive_.
+Complementary artifacts help us develop new skills that remain with us even when
+the artifact isn't.
+Competitive artifacts are like prosthetics, helping us only while they are with
+us.
+
+A paper map is an example of a complementary artifact: it gives you an entirely
+new perspective on your location with respect to your surroundings.
+This is so easily taken for granted that it may seem trivial.
+
+A GPS-powered navigation system (like Google Maps) is a competing artifact: if
+your connection is lost or your battery runs out, _you might not even know what
+state you're in_.
+
+## Longer Lever
+
+New technology is a longer lever, a force multiplier.
+All classifications are an attempt to draw a line separating the good technology
+from the bad.
+But this line needs an explanation (e.g. complementary vs. competing) or we
+won't take it seriously.
+We'll consider it _arbitrary_.
+
+But it may be that the best justification for using a barbell rather than a
+weight machine is simply that the _barbell is better_.
+Not that it's older, or not older, or between some watersheds, etc.
+That it's simply better at helping you accomplish what you want to accomplish.
+
+For the same reason it might be appropriate to travel by car in certain
+situations but not appropriate in others.
+Ditto for using a calculator or an LLM.
