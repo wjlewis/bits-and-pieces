@@ -1,0 +1,143 @@
+# Dual Numbers
+
+Here are the addition and multiplication rules for a two-dimensional number
+system not unlike the complex numbers:
+
+$$
+\begin{align*}
+(a, b) + (c, d) &= (a + c, b + d) \\
+(a, b) \cdot (c, d) &= (ac, bc + ad)
+\end{align*}
+$$
+
+In $\mathbb{C}$ we give the name $i$ to $(0, 1)$.
+We'll do the same here, but call it $\varepsilon$.
+Then $(a, b) = a + b\varepsilon$, $(c, d) = c + d\varepsilon$, and:
+
+$$
+\begin{align*}
+(a + b\varepsilon) + (c + d\varepsilon) &= a + c + (b + d)\varepsilon \\
+(a + b\varepsilon) \cdot (c + d\varepsilon) &= ac + (bc + ad)\varepsilon
+\end{align*}
+$$
+
+We've glossed over some important details, but the key is that the dual numbers
+look like the complex numbers, but with the rule $\varepsilon^2 = 0$ rather than
+$i^2 = -1$.
+This gives them a rather curious quality.
+
+To illustrate this, consider the function:
+
+$$
+f(x) = 3x^2 - 2x + 1
+$$
+
+Now evaluate $f$ on the dual number $a + \varepsilon$:
+
+$$
+\begin{align*}
+f(a + \varepsilon) &= 3(a + \varepsilon)^2 - 2(a + \varepsilon) + 1 \\
+  &= 3(a^2 + 2a\varepsilon) - 2(a + \varepsilon) + 1 \\
+  &= 3a^2 - 2a + 1 + (6a - 2)\varepsilon
+\end{align*}
+$$
+
+The "real part" of the result is simply $f(a)$.
+The "$\varepsilon$ part" is the _derivative_ of $f$ evaluated at $a$.
+
+## Why?
+
+We can begin to get a sense of why this works by looking at the Taylor expansion
+of an analytic function $g$:
+
+$$
+g(x) = g(a) + g'(a)(x - a) + \frac{g''(a)}{2}(x - a)^2 + \frac{g^{(3)}(a)}{3!}(x - a)^3 + \cdots
+$$
+
+Evaluating this series at the dual number $a + b\varepsilon$ reveals:
+
+$$
+\begin{align*}
+g(a + b\varepsilon) &= g(a) + g'(a)b\varepsilon + \frac{g''(a)}{2}\varepsilon^2 + \frac{g^{(3)}(a)}{3!}\varepsilon^3 + \cdots \\
+  &= g(a) + g'(a)b\varepsilon + 0 + 0 + \cdots \\
+  &= g(a) + g'(a)b\varepsilon
+\end{align*}
+$$
+
+With this equality in hand, we can see that the sum rule:
+
+$$
+\begin{align*}
+f(a + \varepsilon) + g(a + \varepsilon) &= f(a) + f'(a)\varepsilon + g(a) + g'(a)\varepsilon \\
+  &= f(a) + g(a) + (f'(a) + g'(a))\varepsilon
+\end{align*}
+$$
+
+the product rule:
+
+$$
+\begin{align*}
+f(a + \varepsilon) \cdot g(a + \varepsilon) &= (f(a) + f'(a)\varepsilon)(g(a) + g'(a)\varepsilon) \\
+  &= f(a)g(a) + (f'(a)g(a) + f(a)g'(a))\varepsilon
+\end{align*}
+$$
+
+and the chain rule:
+
+$$
+\begin{align*}
+f(g(a + \varepsilon)) &= f(g(a) + g'(a)\varepsilon) \\
+  &= f(g(a)) + f'(g(a))g'(a)\varepsilon
+\end{align*}
+$$
+
+all work out as expected.
+That is, the "$\varepsilon$ part"—which we'll call the _differential_ or
+_tangential_ part—is the derivative of the sum, product, or composition of
+functions.
+
+Even though the dual numbers aren't a field, we can define division as long as
+the real part (which is usually called the _primal_ part) of the denominator is
+nonzero.
+That is, for $a \ne 0$:
+
+$$
+\begin{align*}
+\frac{1}{a + b\varepsilon} &= \frac{1}{a + b\varepsilon} \cdot \frac{a - b\varepsilon}{a - b\varepsilon} \\
+  &= \frac{a - b\varepsilon}{a^2} \\
+  &= \frac{1}{a} - \frac{b}{a^2}\varepsilon
+\end{align*}
+$$
+
+Combining this result with the product rule above, we recover the familiar
+quotient rule:
+
+$$
+\begin{align*}
+\frac{f(a + \varepsilon)}{g(a + \varepsilon)} &= \frac{f(a) + f'(a)\varepsilon}{g(a) + g'(a)\varepsilon} \\
+  &= (f(a) + f'(a)\varepsilon) \cdot \frac{1}{g(a) + g'(a)\varepsilon} \\
+  &= (f(a) + f'(a)\varepsilon) \cdot \left(\frac{1}{g(a)} - \frac{g'(a)}{g^2(a)}\varepsilon\right) \\
+  &= \frac{f(a)}{g(a)} + \frac{f'(a)g(a) - f(a)g'(a)}{g^2(a)}\varepsilon
+\end{align*}
+$$
+
+## But _Why?_
+
+The discussion above doesn't really get to the heart of the matter, though.
+This burning question is really something more along the lines of: _how does
+using special numbers allow us to differentiate functions for free?_
+Along the same lines, does this reveal anything about differentiation?
+
+This seems to imply that differentiation is a really easy problem, specifically
+that it's no more difficult than adding and multiplying things.
+
+## Differential Algebra?
+
+Can we define a suitable operator $\partial$ here?
+
+$$
+\begin{align*}
+\partial(a + b) &= \partial a + \partial b \\
+\partial(a \cdot b) &= a \cdot \partial b + \partial a \cdot b
+\end{align*}
+$$

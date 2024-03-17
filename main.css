@@ -1,10 +1,10 @@
 :root {
-  --color-bg: rgb(13, 17, 23);
-  --color-bg-subtle: rgb(22, 27, 34);
+  --color-bg: rgb(255, 255, 255);
+  --color-bg-subtle: rgb(246, 248, 250);
   --color-header-bg: rgb(22, 27, 34);
-  --color-text-default: rgb(230, 237, 243);
+  --color-text-default: rgb(31, 35, 40);
   --color-text-muted: rgb(132, 141, 151);
-  --color-border-default: rgb(48, 54, 61);
+  --color-border-default: rgb(208, 215, 222);
   --color-accent-fg: rgb(47, 129, 247);
 }
 
@@ -26,7 +26,7 @@ body {
 }
 
 .heading a {
-  color: var(--color-text-default);
+  color: var(--color-bg);
 }
 
 .content {
@@ -109,14 +109,14 @@ pre {
 }
 
 code {
-  font-size: 0.85em;
+  font-size: 1em;
   font-family: 'Source Code Pro', monospace;
 }
 
 code.inline {
   background-color: var(--color-bg-subtle);
   border-radius: 6px;
-  padding: 0.2em 0.4em;
+  padding: 0.1em 0.4em;
 }
 
 /* Block Quotes */
